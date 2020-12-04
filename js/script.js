@@ -1,3 +1,8 @@
+window.addEventListener('load', () => {
+    const preload = document.querySelector('.pre-loader');
+    preload.classList.add('finish-preload');
+});
+
 $(function(){
 
     $(window).on('scroll', function(){
