@@ -435,7 +435,7 @@ button.my-btn:hover{
 }
 .slick-slide {
     color: white;
-    padding: 20px 0;
+    padding: 0 0;
     font-size: 30px;
     font-family: "Arial", "Helvetica";
     text-align: center;
