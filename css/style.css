@@ -324,8 +324,11 @@ button.my-btn:hover{
 }
 
 .eith-section a{
-    color: black;
-    font-weight: 400;
+    color: #444444;
+    font-weight: 500;
+}
+.eith-section a:hover{
+    color: #0dad93;
 }
 .eith-section .active{
     color: #00C3A3;
@@ -364,7 +367,13 @@ button.my-btn:hover{
     padding-right: 0;
     padding-left: 0;
 }
-
+.eith-section .tab-pane.fade {
+    transition: all 0.2s;
+    transform: translateY(1rem);
+}
+.eith-section .tab-pane.fade.show {
+    transform: translateY(0rem);
+}
 
 .forms-section .form-control {
     padding: 1.400rem 0.75rem;
